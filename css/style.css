@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Open Sans', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #F0F2F5;
+}
+
+.signup-area::after{
+    content: ;
+    clear: both;
+    display:block;
+}
+
+.spac {
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 130px;
+    background-color: aliceblue;
+}
+
+
+.left-area {
+    width: 60%;
+    float: left;
+    margin-top: 75px;
+}
+.left-area img{
+    
+}
+.left-area h2{
+    font-size:24px;
+    line-height: 28px;
+    font-weight:400;
+    width:485px;
+    margin-top:5px;
+    
+}
+.right-area {
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.right-area form{
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 20px;
+}
+
+.right-area .mail {
+    width: 322px;
+    padding: 14px 16px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 6px;
+    font-size:17px;
+}
+
+.right-area .passs{
+    width: 322px;
+    padding: 14px 16px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.right-area .loggg {
+    width: 100%;
+    padding: 16px;
+    background-color: #166FE5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.right-area .frgt {
+    margin-left: 36%;
+    text-decoration: none;
+    font-size: 14px;
+}
+.right-area .frgt:hover{
+    text-decoration: underline;
+}
+
+
+hr {
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.right-area .createAccount {
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.right-area .createAccount input{
+    padding: 15px 30px;
+    background: rgb(55, 223, 55);
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    color:#fff;
+    font-weight: bold;
+    
+}
+.right-area .createAccount input:hover{
+    background: linear-gradient(#60e22c, #67ae55);
+}
+
+.right-area .ratxt{
+    padding-top: 20px;
+    text-align: center;
+}
